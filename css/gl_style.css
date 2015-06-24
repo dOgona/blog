@@ -1,0 +1,185 @@
+body{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    line-height:1.4;
+    background: #808080;
+     background: url('../img/gl_3.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.cont-1 {
+	position: relative;
+	float: left;
+	width: 780px;
+	min-height: 100px;
+	margin: 200px 0px 20px 100px;
+	padding: 20px;
+    background: #FFFFFF;
+}
+.cont-2 {
+	float: left;
+	width: 300px;
+	min-height: 100px;
+	padding: 20px -15px; 
+	margin: 200px 100px 20px 0px;
+}
+.block {
+	padding:20px;
+    margin-bottom:10px;
+    color:#CC0000;
+    background:rgba(255, 234, 171, 0.5);
+}
+.block-q {
+	padding:10px;
+    margin-bottom:10px;
+    color:#CC0000;
+}
+.column-1 {
+    width: 750px;
+    height:500px;
+    margin-bottom: 20px;
+}
+.column-2 {
+    width:250px;
+    height:200px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    padding-left: 20px;
+	background: #e5e5e5;
+	background: url('../img/fon_2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	border-radius: 15px;
+}
+h1 {
+	font-size: 32px;
+	text-shadow:#cccccc 3px 3px 3px;
+	color:  #000000;
+	text-align: left;
+	line-height: 40px;
+	margin-left: 20px;
+}
+.real-text {
+	height: 108px;
+	padding: 0px 5px 5px 5px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	overflow: hidden;
+	text-indent: 20px;
+	color: black;
+}
+.img-blo1 {
+	width:600px;
+	height:300px;
+	margin: 0px auto;
+	margin-top: -30px;
+	background-image: url('../img/bmw.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 100%;
+}
+.img-blo2 {
+	width:600px;
+	height:300px;
+	margin: 0px auto;
+	margin-top: -30px;
+	background-image: url('../img/dodge_challenger.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 100%;
+}
+.img-blo3 {
+	width:600px;
+	height:300px;
+	margin: 0px auto;
+	margin-top: -30px;
+	background-image: url('../img/ferrari.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 100%;
+}
+.img-blo4 {
+	width:600px;
+	height:300px;
+	margin: 0px auto;
+	margin-top: -30px;
+	background-image: url('../img/porsche.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 100%;
+}
+hr {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 750px;
+	color: black;
+}
+/*  MAIN-MENU*/
+.main-menu {
+    list-style:none;
+    padding:0;
+    margin:0;
+    }
+.main-menu>li {
+    position:relative;
+    width:250px;
+    }
+.main-menu>li>a {
+    display:block;
+    text-decoration:none;
+    padding:5px 15px;
+    font-size: 18px;
+    color:#000000;
+    font-weight: bold;
+    }
+.main-menu .sub-menu {
+    display:none;
+    position:absolute;
+    top:0px;
+    left:140px;
+    z-index:10;
+    list-style:none;
+    padding:0px;
+    margin:0px;
+    }
+.main-menu .sub-menu a {
+    display:block;
+    width:170px;
+    padding:10px 15px;
+    text-decoration:none;
+    color: #696969;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+}
+.main-menu li:hover .sub-menu {
+    display:block;
+    opacity: 1.5;
+    }
+.main-menu li:hover {
+    text-decoration: underline;
+    }
+ .img-ava {
+ 	width:110px;
+ 	height:90px;
+ 	background-image: url('E:/Программирование/blog/img/ava.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	background-position: 100%;
+ 	margin-bottom: 0px;
+ }
+ .column-3 {
+ 	padding: 20px 10px 10px 50px;
+ }
+ .text-unr {
+ 	float: left;
+ 	width:250px;
+ 	height: 100px;
+	text-indent: 20px;
+ 	overflow: hidden;
+ 	color: black;
+ 	font-style: italic;
+ 	margin-top: -10px;
+ }
